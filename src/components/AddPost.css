@@ -1,0 +1,45 @@
+/* AddPost.css */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* กำหนดระยะห่างระหว่างฟอร์ม */
+    width: 100%;
+    max-width: 500px; /* กำหนดความกว้างสูงสุดของฟอร์ม */
+    margin: 0 auto; /* จัดให้อยู่กลางหน้า */
+    padding: 20px;
+    background-color: #babdb5;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* เพิ่มเงาให้ฟอร์ม */
+  }
+  
+  input, textarea {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #080808;
+    border-radius: 4px;
+  }
+  
+  input {
+    height: 40px;
+  }
+  
+  textarea {
+    height: 150px; /* ขนาดของ textarea */
+    resize: vertical; /* ให้ขยายขึ้นลงได้ */
+  }
+  
+  button {
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: #0a4fe4;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0947f3;
+  }
+  
